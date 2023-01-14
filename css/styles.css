@@ -247,10 +247,7 @@ ul {
 }
 
 .section-team {
-  width: 1600px;
-  height: 648px;
-  left: 80px;
-  top: 1449px;
+  margin: 0 auto;
   background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
