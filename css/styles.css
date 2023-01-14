@@ -161,6 +161,7 @@ a[info@devstudio.com] {
 }
 .container {
   width: 1200 px;
+  margin: 0;
 }
 
 * {
@@ -174,4 +175,27 @@ a[info@devstudio.com] {
   height: 54px;
   left: 510px;
   top: 174px;
+}
+.box {
+  box-sizing: border-box;
+  position: none;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  display: inline-flex;
+}
+
+.box:nth-of-type(3n + 1) {
+  margin-left: 30;
+}
+
+.box:nth-of-type(3n) {
+  margin-right: auto;
+}
+
+.box:nth-last-of-type(-n + 3) {
+  margin-bottom: auto;
 }
