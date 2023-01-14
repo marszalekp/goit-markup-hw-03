@@ -161,10 +161,7 @@ a[info@devstudio.com] {
 }
 .container {
   width: 1200 px;
-  margin: 0;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .box {
@@ -198,4 +195,13 @@ a[info@devstudio.com] {
   left: 0px;
   top: 1449px;
   background: #f5f4fa;
+}
+
+.section-banner {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
 }
