@@ -199,3 +199,12 @@ a[info@devstudio.com] {
 .box:nth-last-of-type(-n + 3) {
   margin-bottom: auto;
 }
+
+.section-bg {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  background: #f5f4fa;
+}
