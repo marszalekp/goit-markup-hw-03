@@ -256,6 +256,12 @@ a[info@devstudio.com] {
   gap: 30px;
 }
 
+.baner-list {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
 }
