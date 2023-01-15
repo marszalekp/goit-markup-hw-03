@@ -116,9 +116,7 @@ a[info@devstudio.com] {
 }
 
 .button2 {
-  position: inherit;
-  left: 510px;
-  top: 174px;
+  margin: 0 auto;
   background: #f5f4fa;
   border-radius: 4px;
   font-weight: 700;
@@ -251,4 +249,16 @@ ul {
   background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.box-team {
+  box-sizing: border-box;
+  position: none;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  display: inline-flex;
 }
