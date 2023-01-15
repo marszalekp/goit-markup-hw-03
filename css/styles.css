@@ -24,11 +24,12 @@ a[info@devstudio.com] {
 
 .title1 {
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 2;
+  line-height: 1, 17;
   letter-spacing: 0.06em;
-  text-align: left;
+  text-align: center;
+  padding-bottom: 50px;
 }
 .title2 {
   font-family: Roboto;
@@ -77,6 +78,15 @@ a[info@devstudio.com] {
   line-height: 1, 17;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.title-box-portfolio {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
 }
 .blue {
   color: #2196f3;
@@ -268,11 +278,12 @@ ul {
 
 .foter {
   width: 1600px;
-  height: 300px;
+  height: 252px;
   top: 80px;
   background: #2f303a;
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-top: 0auto;
 }
 .adress-text {
   top: 2208px;
@@ -286,4 +297,7 @@ ul {
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+.center {
+  text-align: center;
 }
