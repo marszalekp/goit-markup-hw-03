@@ -95,6 +95,10 @@ a[info@devstudio.com] {
   color: #000000;
 }
 
+.white {
+  color: #ffffff;
+}
+
 .link:visited {
   color: #212121;
 }
