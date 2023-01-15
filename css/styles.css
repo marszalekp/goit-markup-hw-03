@@ -113,7 +113,8 @@ a[info@devstudio.com] {
 }
 
 .button {
-  position: absolute;
+  display: flex;
+  margin: auto;
   left: 700px;
   top: 174px;
   background: #2196f3;
@@ -247,6 +248,8 @@ a[info@devstudio.com] {
 }
 .menu {
   display: flex;
+  justify-content: center;
+  margin: 0 auto 0 100px;
 }
 
 ul {
@@ -254,8 +257,8 @@ ul {
 }
 
 .baner {
-  width: 1600px;
-  height: 600px;
+  max-width: 1600px;
+  padding: 600px;
   margin: 0 auto;
   background: #2f303a;
   padding-top: 94px;
@@ -264,7 +267,7 @@ ul {
 }
 
 .section-team {
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
   background: #f5f4fa;
   padding-top: 94px;
@@ -285,7 +288,7 @@ ul {
 }
 
 .foter {
-  width: 1600px;
+  max-width: 1600px;
   height: 252px;
   background: #2f303a;
   padding-top: 94px;
@@ -293,7 +296,7 @@ ul {
   margin-top: 0 auto;
 }
 .foter-portfolio {
-  width: 1600px;
+  max-width: 1600px;
   height: 252px;
   background: #2f303a;
   padding-top: 94px;
