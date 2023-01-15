@@ -194,6 +194,7 @@ a[info@devstudio.com] {
 
 .box:nth-of-type(3n + 1) {
   margin-left: 30;
+  margin-inline: 30px;
 }
 
 .box:nth-of-type(3n) {
@@ -285,6 +286,14 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
   margin-top: 0 auto;
+}
+.foter-portfolio {
+  width: 1600px;
+  height: 252px;
+  background: #2f303a;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-top: 80px;
 }
 .adress-text {
   top: 2208px;
