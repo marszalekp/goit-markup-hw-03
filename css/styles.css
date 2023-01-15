@@ -251,13 +251,14 @@ ul {
 .baner {
   width: 1600px;
   height: 600px;
-  top: 80px;
+  margin: 0 auto;
   background: #2f303a;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .section-team {
+  width: 1600px;
   margin: 0 auto;
   background: #f5f4fa;
   padding-top: 94px;
@@ -267,23 +268,23 @@ ul {
 .box-team {
   box-sizing: border-box;
   position: none;
-  width: 370px;
-  height: 404px;
+  width: 270px;
+  height: 368px;
   left: 215px;
   top: 262px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   display: inline-flex;
+  margin: 0 auto;
 }
 
 .foter {
   width: 1600px;
   height: 252px;
-  top: 80px;
   background: #2f303a;
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-top: 0auto;
+  margin-top: 0 auto;
 }
 .adress-text {
   top: 2208px;
