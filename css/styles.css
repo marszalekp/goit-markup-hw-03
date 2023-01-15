@@ -100,7 +100,7 @@ a[info@devstudio.com] {
 
 .button {
   position: absolute;
-  left: 510px;
+  left: 700px;
   top: 174px;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -113,6 +113,7 @@ a[info@devstudio.com] {
   cursor: pointer;
   padding: 15px 30px;
   border-style: none;
+  text-align: center;
 }
 
 .button2 {
@@ -144,6 +145,7 @@ a[info@devstudio.com] {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  text-align: center;
 }
 
 .Webstudio {
@@ -261,4 +263,26 @@ ul {
   background: #ffffff;
   border: 1px solid #eeeeee;
   display: inline-flex;
+}
+
+.foter {
+  width: 1600px;
+  height: 300px;
+  top: 80px;
+  background: #2f303a;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.adress-text {
+  top: 2208px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
 }
