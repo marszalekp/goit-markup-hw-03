@@ -13,6 +13,17 @@ a[info@devstudio.com] {
 }
 
 .header-contact > li a {
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+
+.footer-contact > li a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -55,7 +66,7 @@ a[info@devstudio.com] {
   letter-spacing: 0.03em;
   text-align: left;
 }
-.title5 {
+.title-five {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -113,7 +124,6 @@ a[info@devstudio.com] {
 }
 
 .button {
-  display: flex;
   margin: auto;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -129,7 +139,7 @@ a[info@devstudio.com] {
   text-align: center;
 }
 
-.button2 {
+.button-two {
   margin: 0 auto;
   background: #f5f4fa;
   border-radius: 4px;
@@ -144,13 +154,12 @@ a[info@devstudio.com] {
   justify-content: center;
   gap: 10px;
 }
-.button2:hover {
+.button-two:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
 
-.efektywne {
-  display: flex;
+.effective {
   margin: auto;
   font-family: "Roboto";
   font-style: normal;
@@ -186,19 +195,22 @@ a[info@devstudio.com] {
 
 .box {
   box-sizing: border-box;
-  position: none;
   width: 370px;
   height: 404px;
-  left: 215px;
-  top: 262px;
   background: #ffffff;
   border: 1px solid #eeeeee;
-  display: inline-flex;
+}
+
+.orderly {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .box:nth-of-type(3n + 1) {
-  margin-left: 30;
-  margin-inline: 30px;
+  margin-left: 30px;
+  margin-inline: auto;
 }
 
 .box:nth-of-type(3n) {
@@ -252,15 +264,11 @@ a[info@devstudio.com] {
   gap: 30px;
 }
 
-.baner-list {
-  display: flex;
-}
-
 ul {
   list-style-type: none;
 }
 
-.baner {
+.banner {
   max-width: 1600px;
   background: #2f303a;
   padding-top: 200px;
@@ -320,4 +328,14 @@ ul {
 }
 .center {
   text-align: center;
+}
+
+.header-contact {
+  display: flex;
+  gap: 10px;
+}
+
+.aligin-items-center {
+  align-items: center;
+  display: flex;
 }
