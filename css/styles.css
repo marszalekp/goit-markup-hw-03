@@ -8,11 +8,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
-a[info@devstudio.com] {
-  color: #757575;
-}
 
-.header-contact > li a {
+
+
+.header-contact > li link {
   display: flex;
   font-style: normal;
   font-weight: 500;
@@ -23,7 +22,7 @@ a[info@devstudio.com] {
   color: #757575;
 }
 
-.footer-contact > li a {
+.footer-contact > li link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
