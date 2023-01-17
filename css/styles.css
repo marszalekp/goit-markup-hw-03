@@ -9,8 +9,6 @@ body {
   color: #212121;
 }
 
-
-
 .header-contact > li link {
   display: flex;
   font-style: normal;
@@ -47,8 +45,7 @@ body {
   line-height: 1, 87;
   letter-spacing: 0.03em;
   text-align: left;
-  color:
-  #757575;
+  color: #757575;
 }
 
 .title-four {
@@ -82,7 +79,7 @@ body {
   line-height: 1, 17;
   letter-spacing: 0.03em;
   text-align: center;
-  color:#757575;
+  color: #757575;
 }
 
 .title-box-portfolio {
@@ -92,8 +89,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
-  color: 
-  #212121;
+  color: #212121;
 }
 .blue {
   color: #2196f3;
@@ -118,7 +114,6 @@ body {
 .link {
   text-decoration: none;
   color: #757575;
-  
 }
 
 .button {
@@ -138,7 +133,7 @@ body {
 }
 
 .button-two {
-margin: 0 auto;
+  margin: 0 auto;
   background: #f5f4fa;
   border-radius: 4px;
   font-weight: 700;
@@ -148,7 +143,6 @@ margin: 0 auto;
   cursor: pointer;
   padding: 15px 30px;
   border-style: none;
-
 }
 .button-two:hover {
   background-color: #2196f3;
@@ -258,15 +252,15 @@ margin: 0 auto;
   justify-content: center;
   margin: 0 auto, 0 100px;
   gap: 30px;
-  align-items:stretch;
+  align-items: stretch;
 }
 
 .menu-portfolio {
   display: flex;
-  justify-content:center;
-  margin: 0 auto,
-  gap: 30px;
-
+  justify-content: center;
+  margin: auto;
+  gap: 10px;
+  max-width: 700px;
 }
 
 ul {
@@ -345,6 +339,6 @@ ul {
   display: flex;
 }
 
-.text-padding{
+.text-padding {
   padding-top: 20px;
 }
