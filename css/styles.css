@@ -19,7 +19,7 @@ body {
   /* border: 1px solid red; */
 }
 
-.footer-contact > li link {
+.footer-contact > li link-two {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -113,7 +113,10 @@ body {
 .link {
   text-decoration: none;
   color: #757575;
-  margin-left: 50px;
+}
+
+.contact__item .link {
+  margin: 0 50px;
 }
 
 .button {
