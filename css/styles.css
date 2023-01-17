@@ -9,15 +9,14 @@ body {
   color: #212121;
 }
 
-.header-contact > li link {
+.header {
   display: flex;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #757575;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 24px auto;
+  /* border: 1px solid red; */
 }
 
 .footer-contact > li link {
@@ -240,10 +239,7 @@ body {
   margin: 0 auto;
   padding: 0;
 }
-.page-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.page-header-line {
   border: 1px solid #ececec;
   height: 80px;
 }
@@ -252,7 +248,23 @@ body {
   justify-content: center;
   margin: 0 auto, 0 100px;
   gap: 30px;
-  align-items: stretch;
+  align-items: center;
+}
+
+.navbar__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+
+.navbar__items {
+  display: flex;
+  margin-left: 93px;
+}
+
+.navbar__item:not(:first-child) {
+  margin-left: 46px;
 }
 
 .menu-portfolio {
@@ -329,16 +341,20 @@ ul {
   text-align: center;
 }
 
-.header-contact {
-  display: inline-flex;
-  gap: 10px;
+.contacts {
+  display: flex;
 }
 
 .aligin-items-center {
-  align-items: center;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-padding {
   padding-top: 20px;
+}
+
+.tel {
+  margin-left: 50px;
 }
