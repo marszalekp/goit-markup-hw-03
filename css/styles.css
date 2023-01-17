@@ -330,7 +330,7 @@ ul {
 }
 
 .header-contact {
-  display: flex;
+  display: inline-flex;
   gap: 10px;
 }
 
