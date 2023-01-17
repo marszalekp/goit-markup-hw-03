@@ -32,7 +32,7 @@ body {
   color: #757575;
 }
 
-.title1 {
+.title-one {
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
@@ -41,23 +41,17 @@ body {
   text-align: center;
   padding-bottom: 50px;
 }
-.title2 {
+.title-two {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1, 87;
   letter-spacing: 0.03em;
   text-align: left;
-}
-.title3 {
-  font-family: Roboto;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-align: center;
+  color:
+  #757575;
 }
 
-.title4 {
+.title-four {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -73,7 +67,7 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
 }
-.title6 {
+.title-six {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -81,13 +75,14 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.title7 {
+.title-seven {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1, 17;
   letter-spacing: 0.03em;
   text-align: center;
+  color:#757575;
 }
 
 .title-box-portfolio {
@@ -97,6 +92,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
+  color: 
+  #212121;
 }
 .blue {
   color: #2196f3;
@@ -120,6 +117,8 @@ body {
 
 .link {
   text-decoration: none;
+  color: #757575;
+  
 }
 
 .button {
@@ -259,6 +258,7 @@ margin: 0 auto;
   justify-content: center;
   margin: 0 auto, 0 100px;
   gap: 30px;
+  align-items:stretch;
 }
 
 .menu-portfolio {
@@ -343,4 +343,8 @@ ul {
 .aligin-items-center {
   align-items: center;
   display: flex;
+}
+
+.text-padding{
+  padding-top: 20px;
 }
