@@ -113,6 +113,7 @@ body {
 .link {
   text-decoration: none;
   color: #757575;
+  margin-left: 50px;
 }
 
 .button {
@@ -242,6 +243,7 @@ body {
 .page-header-line {
   border: 1px solid #ececec;
   height: 80px;
+  display: flex;
 }
 .menu {
   display: flex;
@@ -353,8 +355,4 @@ ul {
 
 .text-padding {
   padding-top: 20px;
-}
-
-.tel {
-  margin-left: 50px;
 }
