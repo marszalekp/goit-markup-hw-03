@@ -276,7 +276,7 @@ body {
 }
 
 .list-element {
-  list-style-type: none;
+  list-style: none;
 }
 
 .banner {
